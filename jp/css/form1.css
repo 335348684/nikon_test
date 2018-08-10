@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*---------------------------------
+	Forms
+*/
+input[type="submit"],
+input[type="button"],
+button {
+	cursor: pointer;
+}
+
+input,
+textarea,
+select,
+button {
+	margin:0;
+}
+
+input[type="text"],
+input[type="password"],
+textarea {
+	border: 1px solid #cccccc;
+	background:url(../images/bg_input.png) 0 0 no-repeat;
+	background-color:#ffffff;
+	padding: 5px;
+	/*position: relative; for editare img bug*/
+}
+	input[type="text"]:focus,
+	input[type="password"]:focus,
+	textarea:focus {
+		background:url(../images/bg_input.png) -1000px 0 no-repeat;
+		background-color: #ffffed;
+		color: #000000;
+	}
+
+select {
+	border-left: 1px solid #cccccc;
+	border-top: 1px solid #cccccc;
+	border-right: 1px solid #666666;
+	border-bottom: 1px solid #666666;
+}
+	select:focus {
+		background-color: #ffffed;
+	}
+
+input.nobdr,
+.nobdr input {
+	border:none;
+}
+
+/*---------------------------------
+	Buttons
+*/
+
+.btn-ok {
+	width: 174px;
+	height: 44px;
+	background: url(../images/btn_ok.png) 0 0 no-repeat; 
+	border: none;
+	padding: 7px 0px;
+	font-size: 100%;
+	font-weight: bold;
+	letter-spacing: 3px;
+	color: #333333;
+}
+	.btn-ok:hover {
+		color: #666666;
+	}
+	.btn-ok:active {
+		color: #333333;
+		background: url(../images/btn_ok.png) -174px 0 no-repeat; 
+	}
+
+.btn-cancel {
+	width: 174px;
+	height: 44px;
+	background: url(../images/btn_cancel.png) 0 0 no-repeat; 
+	border: none;
+	padding: 7px 0px;
+	font-size: 100%;
+	font-weight: bold;
+	letter-spacing: 3px;
+	color: #333333;
+}
+	.btn-cancel:hover {
+		color: #666666;
+	}
+	.btn-cancel:active {
+		color: #333333;
+		background: url(../images/btn_cancel.png) -174px 0 no-repeat; 
+	}
+
+.opebtn {
+   position: relative;
+   overflow: hidden;
+   margin: 40px auto;
+}
+	.opebtn ul.btns {
+	   position:relative;
+	   left: 50%;
+	   float: left;
+	}
+		.opebtn ul.btns li {
+		   position: relative;
+		   left: -50%;
+		   float: left;
+		   margin: 0 2px;
+		}

@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+dl.fontsize {
+	width: 128px;
+	height: 20px;
+	display: block;
+	position: relative;
+}
+	dl.fontsize dt em,
+	dl.fontsize dd span { display: none; }
+	dl.fontsize dt {
+		display: block;
+		float: left;
+		width: 59px;
+		height: 20px;
+		background: url(../images/fontsize.html) 0 0 no-repeat;
+	}
+	dl.fontsize dd {
+		display: block;
+		float: left;
+		width: 23px;
+		height: 20px;
+	}
+		dl.fontsize dd a {
+			display: block;
+			width: 23px;
+			height: 20px;
+		}
+	dl.fontsize dd.size-s {
+	}
+		dl.fontsize dd.size-s a {
+			background: url(../images/fontsize.html) -59px 0 no-repeat;
+		}
+		dl.fontsize dd.size-s a:hover  {
+			background: url(../images/fontsize.html) -59px -30px no-repeat;
+		}
+	dl.fontsize dd.size-m {
+	}
+		dl.fontsize dd.size-m a {
+			background: url(../images/fontsize.html) -82px -60px no-repeat;
+		}
+		dl.fontsize dd.size-m a:hover {
+			background: url(../images/fontsize.html) -82px -30px no-repeat;
+		}
+	dl.fontsize dd.size-l {
+	}
+		dl.fontsize dd.size-l a {
+			background: url(../images/fontsize.html) -105px 0 no-repeat;
+		}
+		dl.fontsize dd.size-l a:hover {
+			background: url(../images/fontsize.html) -105px -30px no-repeat;
+		}
+
+
+

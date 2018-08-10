@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Previous version site's CSS */
+
+.pt8 {  font-size: 8px}
+.pt10 {  font-size: 10px}
+.pt12 {  font-size: 12px; line-height: 18px}
+.pt12noline {  font-size: 12px}
+.pt1217 {  font-size: 12px; line-height: 17px}
+.pt1216 {  font-size: 12px; line-height: 16px}
+.ptka {  font-size: 85%; line-height: 130%; font-family: "ＭＳ Ｐゴシック"; text-decoration:none}
+.ptkanoline {  font-size: 85%; font-family: "ＭＳ Ｐゴシック"; text-decoration:none}
+.pt12red {  font-size: 12px; line-height: 18px; color: #CC0000; font-family: "ＭＳ Ｐゴシック"; text-decoration:none}
+.ptkared {  font-size: 85%; line-height: 130%; color: #CC0000; font-family: "ＭＳ Ｐゴシック"; text-decoration:none}
+.red {  font-size: 100%; line-height: 130%; color: #CC0000; font-family: "ＭＳ Ｐゴシック"; text-decoration:none}
+.pt12redno {  font-size: 12px; color: #CC0000}
+.ptkaredno {  font-size: 85%; color: #CC0000}
+.pt12bl {  font-size: 12px; line-height: 18px; color: #0C80C0}
+.ptkabl {  font-size: 85%; line-height: 130%; color: #0C80C0}
+.pt14B {  font-size: 14px; font-weight: bold; line-height: 20px}
+.pt14 {  font-size: 14px; line-height: 150%}
+.pt14no {  font-size: 14px}
+.pt12og {  font-size: 12px; line-height: 18px; color: #FF3300}
+.pt12ogno {  font-size: 12px; color: #FF3300}
+.pt10ogno {  font-size: 10px; color: #FF3300}
+.ptkaog {  font-size: 85%; line-height: 130%; color: #FF3300; font-family: "ＭＳ Ｐゴシック"; text-decoration:none}
+.ptkaogno {  font-size: 85%; color: #FF3300; font-family: "ＭＳ Ｐゴシック"; text-decoration:none}
+.ptkal {  font-size: 100%; line-height: 130%; font-family: "ＭＳ Ｐゴシック"; text-decoration:none}
+.ptkalb {  font-size: 100%; line-height: 130%; font-weight: bold;}
+.ptka_c {  font-size: 85%; line-height: 130%; font-family: "ＭＳ Ｐゴシック"; text-decoration:none;text-align:center;}
+.ptka_r {  font-size: 85%; line-height: 130%; font-family: "ＭＳ Ｐゴシック"; text-decoration:none;text-align:right;}
+.pt12_c {  font-size: 12px; line-height: 18px ; text-align:center;}
+.pt12_r {  font-size: 12px; line-height: 18px ; text-align:right;}
+.kasnoline {font-size: 75%; font-family: "ＭＳ Ｐゴシック"; text-decoration:none}
+.kasrednoline {font-size: 75%; color: #CC0000; font-family: "ＭＳ Ｐゴシック"; text-decoration:none}
+.kas {font-size: 75%; line-height: 140%; font-family: "ＭＳ Ｐゴシック"; text-decoration:none}
+.kasred {font-size: 75%; line-height: 140%; color: #CC0000; font-family: "ＭＳ Ｐゴシック"; text-decoration:none}
+.default,.default th,.default td {padding: 5px; border:1px solid #888; border-collapse: collapse; vertical-align:top; text-align: left; font-weight: normal;}
+
+.fontL {  font-size: 120%; line-height: 160%; font-family: "ＭＳ Ｐゴシック"; text-decoration:none}
+.ptBig {  font-size: 140%; font-weight: bold;}
+
+
+/*press_p10_100924*/
+#press .list dl{
+	line-height: 1.6em;
+	margin-left: 25px;
+}
+
+#press .list dt{
+	float: left;
+	width: 15.5em;
+}
+
+#press .list dd{
+	margin-left: 15.5em;
+	width: 19.5em;
+}
+
+/*press_p10_101022*/
+#press .list2 dl{
+	line-height: 1.2em;
+	padding: 0;
+	margin: 5px 0 0 10px;
+}
+
+#press .list2 dt{
+	float: left;
+	width: 1.3em;
+}
+
+#press .list2 dd{
+	margin-left: 1.3em;
+	width: 30em;
+}
+
+#press .ml25{
+	margin-left: 25px;
+}

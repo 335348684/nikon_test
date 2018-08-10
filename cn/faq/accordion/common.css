@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#faq section { padding: 0; }
+#faq section li { background: none; margin: 0 0 0 0px; padding: 0; }
+
+ul.accordion { margin:0 0 0 0; background: none; }
+ul.accordion a {display:block; padding:10px; background-position:95% center; background-repeat:no-repeat; text-decoration:none; color:#FFF;}
+ul.accordion ul { margin: 0; display:none; list-style: none;}
+ul.accordion > li > p {
+  line-height:41px;
+  margin:1px 0 0 0;
+  padding:5px 0 5px 10px;
+  background:#eae3d9;
+  font-size:18px;
+  font-weight: normal;
+  cursor:pointer;
+ }
+ul.accordion > li > p span { color: #333; }
+ul.accordion > li > ul > li { }
+ul.accordion > li > ul > li > p {
+    display: block;
+    margin: 0 10px 0 0;
+  cursor:pointer;
+}
+ul.accordion > li > ul > li > p a { color: #333; }
+
+/* 本文 */
+#faq ul.accordion > li > ul > li > ul > li {
+  margin: 0 10px 0 10px;
+  padding: 10px 0 20px 50px;
+  color: #666;
+  background: #f5f5f5;
+}
+#faq ul.accordion > li > ul > li > ul > li span {
+  position: absolute;
+  left: 20px;
+  }
+
+ul.accordion > li > ul > li > ul > li:last-child {border:none; margin-left: 50px;}
+
+ul.accordion > li > p span {background-image:url(img/a_close.html);}
+ul.accordion > li > p span.open {background-image:url(img/a_open.html);}
+ul.accordion > li > a {background-image:url(img/a_link.html);}
+
+ul.accordion > li > ul > li > p span {
+  color: #333;
+  padding: 10px;
+  display: block;
+  margin: 0 0px 0 10px;
+  border-bottom: 1px dotted #aaa;
+  cursor:pointer;
+}
+ul.accordion > li > ul > li > p span:hover {
+  background:#eee;
+  color:#0094CC;
+}
+ul.accordion > li > ul > li > p span.open {background-image:url(img/b_open.html);}
+ul.accordion > li > ul > li > a {background-image:url(img/b_link.html);}
+
+ul.accordion > li > ul > li > ul > li a { color: #57aedb; display: inline; }
+
+dl.accordion {font-size:123.1%; padding:10px; background:#DDD; margin-bottom:30px;}
+dl.accordion dt {height:40px; line-height:40px; text-indent:10px; color:#FFF; background:url(img/a_close.html) 95% center no-repeat,-moz-linear-gradient(top, #666, #000); background:url(http://www.mrc.co.jp/sterapore/faq/accordion/img/a_close.png) 95% center no-repeat,-webkit-gradient(linear, left top, left bottom, from(#666), to(#000)); border-bottom:1px solid #EEE;}
+dl.accordion dt.open {background:url(img/a_open.html) 95% center no-repeat,-moz-linear-gradient(top, #666, #000); background:url(http://www.mrc.co.jp/sterapore/faq/accordion/img/a_open.png) 95% center no-repeat,-webkit-gradient(linear, left top, left bottom, from(#666), to(#000));}
+dl.accordion dd {display:none; padding:10px; line-height:1.5; background:#FFF;}
+

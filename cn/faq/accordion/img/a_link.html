@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>｜｜三菱レイヨン</title>
+</head>
+<body>
+<a name="pagetop" id="pagetop"></a>
+<div id="container">
+	<div id="header" class="header_ja"></div>
+	<div id="gnavi" class="gnavi_ja boxshadow"></div>
+	<div id="wrapper">
+
+		<div id="content1" class="errorMsg">
+			<h1>Page Not Found <em>指定のページが見つかりません。</em></h1>
+			<div class="err">
+			<p>申し訳ございませんが、ご指定のURLに該当するページが見つかりません。<br />
+				お探しのページは掲載期間が終了し削除されたか、入力したURLが間違っている可能性がございます。<br />
+				恐れ入りますが、ナビゲーションから、該当するページをお探しください。</p>
+			</div>
+		</div>
+
+	</div>
+	<div id="footer_ja" class="footer_ja"></div>
+</div>
+
+</body></html>

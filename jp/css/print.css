@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*#header .logo_chemhd,*/
+#header #headermenu,
+#footer_ja .block1,
+#footer_ja .block2 .btmmenu,
+#footer_en .block1,
+#footer_en .block2 .btmmenu,
+#footer_zh .block1,
+#footer_zh .block2 .btmmenu,
+#cttl,
+#topicpath,
+#cnavi,
+.totop,
+.pagetools {
+	display: none;
+}
+
+body {
+	font-size: 11pt;
+	color: #000000;
+	background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body#home,
+body#home_en,
+body#home_zh
+ {
+	background-image: none !important;
+}
+
+a:link,
+a:visited {
+	text-decoration: underline;
+	color: #000000;
+}
+
+img {
+	border: 0;
+}
+
+#content1,
+#content2 {
+	float: none !important;
+	margin: 0 auto !important;
+	padding: 0 !important;
+}
+
+.mainimg { 
+	display:none !important;
+}
+#mainimg-print,
+#mainimg-print img { 
+	display: block !important;
+}
+
+.infolist .inner {
+	overflow: hidden !important;
+	height: 198px;
+}
